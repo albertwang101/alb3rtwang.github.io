@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Albert Wang — Photography & Art</title>
+  <meta name="description" content="Albert Wang is a Taiwanese-American photographer and artist capturing life's simple moments." />
+  <meta name="theme-color" content="#CFE3F7" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230E1B3D'/%3E%3Cpath d='M6 23 L13.5 11 L15.5 12.5 L17.5 10.5 L26 23 Z' fill='%23CFE3F7'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ ICON SPRITE (Lucide-style, 24px, 1.75 stroke) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></symbol>
+      <symbol id="i-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".6"/><circle cx="17.5" cy="10.5" r=".6"/><circle cx="8.5" cy="7.5" r=".6"/><circle cx="6.5" cy="12.5" r=".6"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.13-.29-.29-.44-.65-.44-1.12a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.55-2.5 5.55-5.55C21.97 6.01 17.46 2 12 2z"/></symbol>
+      <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.09-3.09a2 2 0 0 0-2.82 0L6 21"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+      <symbol id="i-tag" viewBox="0 0 24 24"><path d="M12.59 2.59A2 2 0 0 0 11.17 2H4a2 2 0 0 0-2 2v7.17a2 2 0 0 0 .59 1.42l8.7 8.7a2.43 2.43 0 0 0 3.42 0l6.58-6.58a2.43 2.43 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".6"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 15 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0l1.58 6.14a2 2 0 0 0 1.44 1.44l6.14 1.58a.5.5 0 0 1 0 .96l-6.14 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+      <symbol id="i-brush" viewBox="0 0 24 24"><path d="m11 10 3 3"/><path d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.71 1.79A1 1 0 0 0 3 21z"/><path d="M9.97 17.03 21.38 5.62a1 1 0 0 0-3-3L6.97 14.03"/></symbol>
+      <symbol id="i-frame" viewBox="0 0 24 24"><path d="M22 6H2M22 18H2M6 2v20M18 2v20"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#top" class="logo" aria-label="Albert Wang, home">
+        <span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 24 L13.5 10.5 L15.6 12.2 L17.6 10 L27 24 Z" fill="currentColor"/></svg></span>
+        <span class="logo__text">Albert Wang</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="nav__cta-mobile"><a class="btn btn--dark" href="#contact">Say hello</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+<a class="nav__social" href="https://www.instagram.com/alb3rtwang/" target="_blank" rel="noopener" aria-label="Albert Wang on Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>        <a class="btn btn--dark btn--sm" href="#contact">Say hello</a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+          <svg class="icon"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <!-- Hand-drawn Mt. Fuji scene -->
+        <svg class="hero__art" viewBox="-480 0 2400 960" preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#8FB9E8"/>
+              <stop offset=".38" stop-color="#BBD6F3"/>
+              <stop offset=".62" stop-color="#DDE6F7"/>
+              <stop offset=".8" stop-color="#EEE6F3"/>
+              <stop offset="1" stop-color="#E7EFFA"/>
+            </linearGradient>
+            <radialGradient id="sunGlow" cx=".5" cy=".5" r=".5">
+              <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+              <stop offset=".45" stop-color="#FFFFFF" stop-opacity=".55"/>
+              <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="fuji" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#6F94D2"/>
+              <stop offset=".55" stop-color="#8DAEE2"/>
+              <stop offset="1" stop-color="#B3CAEE"/>
+            </linearGradient>
+            <linearGradient id="snow" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#FFFFFF"/>
+              <stop offset="1" stop-color="#E4ECFA"/>
+            </linearGradient>
+            <linearGradient id="farHill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#B7C6EE"/>
+              <stop offset="1" stop-color="#CFDBF4"/>
+            </linearGradient>
+            <linearGradient id="nearHill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#5E7FC4"/>
+              <stop offset="1" stop-color="#7E9BD6"/>
+            </linearGradient>
+            <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#C4D8F3"/>
+              <stop offset="1" stop-color="#E6EFFA"/>
+            </linearGradient>
+            <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+            <filter id="softer" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+            <clipPath id="lakeClip"><rect x="-480" y="872" width="2400" height="88"/></clipPath>
+            <g id="fujiShape">
+              <path d="M180 884 C420 824 590 642 668 548 L698 540 L720 547 L748 541 L772 549 C850 642 1020 824 1260 884 Z" fill="url(#fuji)"/>
+              <path d="M720 547 L748 541 L772 549 C850 642 1020 824 1260 884 L930 884 C830 760 770 650 720 547 Z" fill="#23407F" opacity=".1"/>
+              <path d="M668 548 L698 540 L720 547 L748 541 L772 549 C788 568 804 588 822 610 L804 604 L790 626 L772 608 L756 638 L740 612 L722 646 L706 614 L688 636 L672 610 L652 630 L636 614 C648 592 658 570 668 548 Z" fill="url(#snow)"/>
+              <path d="M720 547 L748 541 L772 549 C788 568 804 588 822 610 L804 604 L790 626 L772 608 L756 638 L740 612 L730 630 C728 600 724 572 720 547 Z" fill="#C9D7F1" opacity=".7"/>
+            </g>
+          </defs>
+
+          <rect x="-480" width="2400" height="960" fill="url(#sky)"/>
+
+          <!-- contrail + sun -->
+          <path d="M1440 70 L820 520" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+          <path d="M1440 110 L900 500" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="8" stroke-linecap="round" filter="url(#soft)"/>
+          <circle cx="720" cy="470" r="300" fill="url(#sunGlow)"/>
+          <circle cx="720" cy="470" r="150" fill="#FFFFFF" opacity=".55"/>
+
+          <!-- high clouds -->
+          <g class="cloud cloud--slow" fill="#FFFFFF">
+            <g opacity=".75" filter="url(#soft)">
+              <ellipse cx="170" cy="250" rx="190" ry="34"/>
+              <ellipse cx="290" cy="228" rx="120" ry="30"/>
+              <ellipse cx="80" cy="276" rx="130" ry="22"/>
+              <ellipse cx="-300" cy="330" rx="170" ry="26"/>
+            </g>
+            <g opacity=".6" filter="url(#soft)">
+              <ellipse cx="1210" cy="190" rx="210" ry="30"/>
+              <ellipse cx="1320" cy="214" rx="150" ry="24"/>
+              <ellipse cx="1100" cy="210" rx="110" ry="20"/>
+              <ellipse cx="1720" cy="310" rx="190" ry="26"/>
+            </g>
+          </g>
+          <g class="cloud cloud--mid" fill="#FFFFFF">
+            <g opacity=".55" filter="url(#soft)">
+              <ellipse cx="360" cy="420" rx="220" ry="26"/>
+              <ellipse cx="220" cy="440" rx="150" ry="18"/>
+            </g>
+            <g opacity=".5" filter="url(#soft)">
+              <ellipse cx="1130" cy="400" rx="200" ry="24"/>
+              <ellipse cx="1260" cy="424" rx="140" ry="18"/>
+            </g>
+          </g>
+
+          <!-- birds -->
+          <g stroke="#3F5C9E" stroke-opacity=".55" stroke-width="2.2" fill="none" stroke-linecap="round">
+            <path d="M1010 300 q8 -8 16 0 q8 -8 16 0"/>
+            <path d="M1052 322 q6 -6 12 0 q6 -6 12 0"/>
+            <path d="M406 330 q6 -6 12 0 q6 -6 12 0"/>
+          </g>
+
+          <!-- far ranges -->
+          <path d="M-480 790 C-320 752 -140 770 0 800 C120 760 220 740 320 758 C420 776 480 730 560 742 C640 754 700 780 760 800 L760 884 L-480 884 Z" fill="url(#farHill)" opacity=".85"/>
+          <path d="M1920 800 C1760 760 1580 768 1440 790 C1330 750 1240 736 1150 752 C1060 768 1000 728 920 744 C840 760 790 784 720 806 L720 884 L1920 884 Z" fill="url(#farHill)" opacity=".85"/>
+
+          <!-- Fuji -->
+          <use href="#fujiShape"/>
+
+          <!-- low mist band -->
+          <g class="cloud cloud--fast" fill="#FFFFFF" filter="url(#softer)">
+            <ellipse cx="520" cy="790" rx="320" ry="30" opacity=".8"/>
+            <ellipse cx="980" cy="776" rx="300" ry="26" opacity=".75"/>
+            <ellipse cx="150" cy="820" rx="260" ry="24" opacity=".6"/>
+            <ellipse cx="1320" cy="812" rx="240" ry="22" opacity=".6"/>
+          </g>
+
+          <!-- near hills with pines -->
+          <path d="M-480 852 C-300 818 -130 826 0 846 C90 818 170 812 260 828 C340 842 400 856 470 866 L470 884 L-480 884 Z" fill="url(#nearHill)"/>
+          <path d="M1920 850 C1740 816 1580 820 1440 836 C1350 810 1260 806 1170 822 C1090 836 1020 852 950 868 L950 884 L1920 884 Z" fill="url(#nearHill)"/>
+          <g fill="#3D5A9C">
+            <path d="M60 848 l12 -40 l12 40z"/><path d="M84 846 l9 -30 l9 30z"/><path d="M130 836 l14 -48 l14 48z"/><path d="M162 838 l10 -32 l10 32z"/>
+            <path d="M1262 828 l13 -44 l13 44z"/><path d="M1292 830 l9 -30 l9 30z"/><path d="M1330 832 l14 -50 l14 50z"/><path d="M1368 838 l10 -34 l10 34z"/>
+            <path d="M-380 842 l12 -40 l12 40z"/><path d="M-350 846 l9 -28 l9 28z"/><path d="M1700 834 l13 -44 l13 44z"/><path d="M1740 840 l9 -30 l9 30z"/>
+          </g>
+
+          <!-- lake + reflection -->
+          <rect x="-480" y="872" width="2400" height="88" fill="url(#lake)"/>
+          <g clip-path="url(#lakeClip)" opacity=".28">
+            <use href="#fujiShape" transform="translate(0 1756) scale(1 -1)"/>
+          </g>
+          <g stroke="#FFFFFF" stroke-linecap="round" opacity=".7">
+            <path d="M560 900 h120" stroke-width="3"/><path d="M740 912 h170" stroke-width="3"/>
+            <path d="M620 928 h90" stroke-width="2"/><path d="M300 906 h80" stroke-width="2"/><path d="M1080 920 h110" stroke-width="2"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="hero__content container">
+        <p class="eyebrow eyebrow--glass reveal"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Creator · Based in Los Angeles & Taipei </p>
+        <h1 id="hero-title" class="hero__title reveal" style="--i:1">Small details, bigger picture</h1>
+        <p class="hero__lede reveal" style="--i:2">Whether I'm behind a camera or in front of a canvas, I always enjoy creating new things.</p>
+        <div class="hero__cta reveal" style="--i:3">
+          <a class="btn btn--dark btn--lg" href="#work">Explore my portfolio <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--glass btn--lg" href="#about">About me</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="work container" id="work" aria-labelledby="work-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg> Portfolio</p>
+          <h2 id="work-title" class="section-title">Selected work</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter work by medium">
+          <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter" data-filter="photo" aria-pressed="false">Photography</button>
+          <button type="button" class="filter" data-filter="art" aria-pressed="false">Art</button>
+        </div>
+      </div>
+      <p class="sr-only" aria-live="polite" id="filter-status"></p>
+
+      <!-- Gallery: one <li> per piece. data-cat sets its filter button: photo | art -->
+      <ul class="gallery">
+        <li class="gallery__item" data-cat="photo"><button type="button" class="tile" data-title="Trees, Rainier" data-meta="Photography · Nikon Coolpix L330 · 2026"><img src="images/trees.jpg" alt="Dense evergreen forest on a mountain slope below a rocky ridge under a grey sky" width="1600" height="1200" loading="lazy" decoding="async" /><span class="tile__info"><strong>Trees, Rainier</strong><em>Photography · 2026</em></span></button></li>
+        <li class="gallery__item" data-cat="photo"><button type="button" class="tile" data-title="Sunset, Chino Hills" data-meta="Photography · iPhone 14 Pro · 2024"><img src="images/sunset.jpg" alt="Sunset over rolling hills, with wild yellow mustard flowers in the foreground" width="1200" height="1600" loading="lazy" decoding="async" /><span class="tile__info"><strong>Sunset, Chino Hills</strong><em>Photography · 2025</em></span></button></li>
+        <li class="gallery__item" data-cat="photo"><button type="button" class="tile" data-title="Flight, Tokyo" data-meta="Photography · Nikon Coolpix L330 · 2024"><img src="images/flight.jpg" alt="View from an airplane window: the wing above clouds and green hills below" width="1200" height="1600" loading="lazy" decoding="async" /><span class="tile__info"><strong>Flight (placeholder title)</strong><em>Photography · 2025</em></span></button></li>
+        <li class="gallery__item" data-cat="photo"><button type="button" class="tile" data-title="Dabin, Los Angeles" data-meta="Photography · iPhone 14 Pro · 2023"><img src="images/dabin.jpg" alt="Concert crowd with hands raised under falling confetti and coloured stage lights" width="1600" height="1200" loading="lazy" decoding="async" /><span class="tile__info"><strong>Dabin (placeholder title)</strong><em>Photography · 2026</em></span></button></li>
+        <li class="gallery__item" data-cat="photo"><button type="button" class="tile" data-title="Forrest, Cebu" data-meta="Photography · Fujifilm Quicksnap 35mm · 2025"><img src="images/Forrest.jpg" alt="A tall waterfall seen through palm fronds and dense jungle greenery" width="1351" height="2000" loading="lazy" decoding="async" /><span class="tile__info"><strong>Forrest (placeholder title)</strong><em>Photography · 2025</em></span></button></li>
+        <li class="gallery__item" data-cat="art"><button type="button" class="tile" data-title="Chinese Mountains" data-meta="Art · Acrylic · 2026"><img src="images/chinese-mountains.jpg" alt="Ink-wash painting of misty layered mountains, a lone tree on a hill and small boats on the water" width="1219" height="1600" loading="lazy" decoding="async" /><span class="tile__info"><strong>Chinese Mountains</strong><em>Art · 2026</em></span></button></li>
+        <li class="gallery__item" data-cat="art"><button type="button" class="tile" data-title="Northern Lights" data-meta="Art · Acrylic · 2025"><img src="images/northern-lights.jpg" alt="Painting of green aurora and stars above a snow-covered ridge" width="1246" height="1600" loading="lazy" decoding="async" /><span class="tile__info"><strong>Northern Lights</strong><em>Art · 2025</em></span></button></li>
+      </ul>
+    </section>
+
+    <!-- Lightbox -->
+    <dialog class="lightbox" id="lightbox" aria-labelledby="lb-title">
+      <div class="lightbox__inner">
+        <button type="button" class="icon-btn lightbox__close" data-lb="close" aria-label="Close"><svg class="icon"><use href="#i-x"/></svg></button>
+        <figure>
+          <img id="lb-img" src="" alt="" />
+          <figcaption><strong id="lb-title"></strong><span id="lb-meta"></span><span id="lb-count" class="muted-sm"></span></figcaption>
+        </figure>
+        <button type="button" class="icon-btn lightbox__prev" data-lb="prev" aria-label="Previous piece"><svg class="icon"><use href="#i-left"/></svg></button>
+        <button type="button" class="icon-btn lightbox__next" data-lb="next" aria-label="Next piece"><svg class="icon"><use href="#i-right"/></svg></button>
+      </div>
+    </dialog>
+
+    <!-- ============ ABOUT / PROCESS ============ -->
+    <section class="about container" id="about" aria-labelledby="about-title">
+      <div class="feature">
+        <div class="feature__media reveal">
+          <img class="feature__bg" src="images/ME.jpg" alt="Albert standing alone in thick fog, looking up at the sky" width="1475" height="1967" style="object-position: center bottom;" loading="lazy" decoding="async" />
+        </div>
+        <div class="feature__text">
+          <p class="eyebrow">About me</p>
+          <h2 id="about-title" class="section-title reveal">Out in nature, back with endless ideas</h2>
+          <p class="reveal" style="--i:1">Hi, I'm Albert! I'm a 24 year old photographer and artist based in Los Angeles & Taipei. This website has some of the cool moments that I've captured or drawn. </p>
+        </div>
+      </div>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq container" id="faq" aria-labelledby="faq-title">
+      <div class="faq__intro">
+        <h2 id="faq-title" class="section-title reveal">Questions? </h2>
+        <p class="reveal" style="--i:1">If something isn't covered here, send me a note; I respond within 24 hours.</p>
+        <a class="btn btn--dark reveal" style="--i:2" href="#contact">Ask me directly</a>
+      </div>
+      <div class="accordion">
+        <details class="acc" open>
+          <summary>What camera do I shoot on?<span class="acc__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <p>Currently, my rotation is the Nikon Coolpix L330, Fujifilm Quicksnap 35mm, and the occasion iPhone 14 Pro</p>
+        </details>
+        <details class="acc">
+          <summary>Can I use a photo for my project?<span class="acc__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <p>Absolutely! Personal/private usage is perfectly okay, and editorial and commercial licenses are also available for other use cases.</p>
+        </details>
+        <details class="acc">
+          <summary>Are commissions open right now?<span class="acc__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <p> I take a small number each season. Reach out and I'll let you know my availabilities!</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT CTA ============ -->
+    <section class="contact container" id="contact" aria-labelledby="contact-title">
+      <div class="contact__card reveal">
+        <svg class="contact__art" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+          <path d="M0 330 C200 300 360 250 470 170 L500 160 L520 168 L545 161 L565 170 C680 250 900 310 1200 330 L1200 400 L0 400 Z" fill="#FFFFFF" opacity=".12"/>
+          <path d="M470 170 L500 160 L520 168 L545 161 L565 170 C580 186 594 200 608 214 L590 210 L575 226 L556 212 L540 232 L522 214 L505 232 L488 212 L470 226 L454 212 C460 198 465 184 470 170 Z" fill="#FFFFFF" opacity=".35"/>
+        </svg>
+        <p class="eyebrow eyebrow--light">Contact</p>
+        <h2 id="contact-title">Let's make something together</h2>
+        <p>Commissions or just saying hi. My inbox is open!</p>
+        <div class="contact__actions">
+          <a class="btn btn--light btn--lg" href="mailto:albertwang101@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> albertwang101@gmail.com</a>
+<a class="icon-btn icon-btn--glass" href="https://www.instagram.com/alb3rtwang/" target="_blank" rel="noopener" aria-label="Albert Wang on Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#top" class="logo" aria-label="Back to top">
+      <span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 24 L13.5 10.5 L15.6 12.2 L17.6 10 L27 24 Z" fill="currentColor"/></svg></span>
+      <span class="logo__text">Albert Wang</span>
+    </a>
+    <ul class="footer__links">
+      <li><a href="#work">Portfolio</a></li><li><a href="#about">About</a></li><li><a href="#faq">FAQ</a></li>
+    </ul>
+    <p class="footer__copy">© <span id="year">2026</span> Albert Wang. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
